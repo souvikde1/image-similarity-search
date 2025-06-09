@@ -17,7 +17,7 @@ This project implements an **image similarity search engine** using a pretrained
 
 ```
 image-similarity-search/
-├── main.ipynb # Main notebook with all code
+├── main.py # Main notebook with all code
 ├── requirements.txt # Dependencies list
 ├── README.md # This file
 ```
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ```
 3. Launch the notebook:
 ```
-jupyter notebook main.ipynb
+python main.py
 ```
 📂 How to Provide Your Dataset
 Create a folder (e.g., my_dataset/) and place your .jpg / .png images in it.
