@@ -66,25 +66,27 @@ dataset_folder = 'my_dataset/'
 ```
 ---
 ## 🔍 How It Works
-MobileNetV2 (with ImageNet weights) extracts feature vectors from all dataset images.
+
+>MobileNetV2 (with ImageNet weights) extracts feature vectors from all dataset images.
 A user-specified query image is also encoded to a feature vector.
 Cosine similarity is used to find the closest matches.
 The top-k most similar images are displayed.
 ---
 ## 🧪 Output Example
-Replace with your own dataset for actual results.
+
+>Replace with your own dataset for actual results.
 Original Image:
 Similar Images:
 ---
 ## ⚙️ Configurable Parameters
-You can customize:
+>You can customize:
 ```
 dataset_folder = 'my_dataset/'
 query_image_path = 'path/to/query.jpg'
 top_k = 5
 ```
 ## 🧾 Dependencies
-Listed in requirements.txt
+>Listed in requirements.txt
 Install them with:
 ```
 pip install -r requirements.txt
